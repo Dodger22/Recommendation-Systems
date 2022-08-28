@@ -4,6 +4,9 @@ A recommender system, or a recommendation system (sometimes replacing 'system' w
 
 Recommender systems are used in a variety of areas, with commonly recognised examples taking the form of playlist generators for video and music services, product recommenders for online stores, or content recommenders for social media platforms and open web content recommenders.
 
+### Projects
+
+1- [Collaborative Filtering Movie Recommender System with SVD +100 K MovieLens Dataset](https://github.com/Dodger22/Recommendation-Systems#collaborative-filtering-movie-recommender-system-with-svd-100-k-movielens-dataset)
 
 ## Collaborative Filtering
 ![Recommender-System-Collaborative-Filtering1-i2tutorials](https://user-images.githubusercontent.com/88277713/187086651-12d4e99c-9825-4599-88d7-b55aaa255bbf.jpg)
