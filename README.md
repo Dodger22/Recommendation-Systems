@@ -17,7 +17,7 @@ Collaborative Filtering: The assumption of this approach is that people who have
 The Singular Value Decomposition (SVD), a method from linear algebra that has been generally used as a dimensionality reduction technique in machine learning. SVD is a matrix factorisation technique, which reduces the number of features of a dataset by reducing the space dimension from N-dimension to K-dimension (where K<N). In the context of the recommender system, the SVD is used as a collaborative filtering technique. It uses a matrix structure where each row represents a user, and each column represents an item. The elements of this matrix are the ratings that are given to items by users.
 
 ## Collaborative Filtering Movie Recommender System with SVD +100 K MovieLens Dataset
-Access to Project
+[Access to Project](https://github.com/Dodger22/Recommendation-Systems/blob/main/Collaborative_Filtering_Movie_Recommender_System_with_SVD.ipynb)
 
 ![1](https://user-images.githubusercontent.com/88277713/187087517-452154c3-a6e3-4955-a8b8-418835bba899.PNG)
 
