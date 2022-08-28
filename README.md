@@ -22,10 +22,10 @@ The Singular Value Decomposition (SVD), a method from linear algebra that has be
 ## Collaborative Filtering Movie Recommender System with SVD +100 K MovieLens Dataset
 [Access to Project](https://github.com/Dodger22/Recommendation-Systems/blob/main/Collaborative_Filtering_Movie_Recommender_System_with_SVD.ipynb)
 
+This is an implementation of singular value decomposition (SVD) based on collaborative filtering in the task of movie recommendation. This task is implemented in Python. For simplicity, the MovieLens 100k  Dataset has been used. This dataset has been chosen because it does not require any preprocessing as the main focus of this project  is on SVD and recommender systems.
+
 ![1](https://user-images.githubusercontent.com/88277713/187087517-452154c3-a6e3-4955-a8b8-418835bba899.PNG)
 
 ![2](https://user-images.githubusercontent.com/88277713/187087741-6545f4b9-a001-4413-a17d-83c3f0b19126.PNG)
 
 
-
-This is an implementation of singular value decomposition (SVD) based on collaborative filtering in the task of movie recommendation. This task is implemented in Python. For simplicity, the MovieLens 100k  Dataset has been used. This dataset has been chosen because it does not require any preprocessing as the main focus of this project  is on SVD and recommender systems.
