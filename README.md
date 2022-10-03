@@ -29,6 +29,33 @@ Later,  our goal is to populate this matrix by finding similarities between user
 m = Users
 n = items
 
+### 2- NeuMF (Neural Matrix Factorisation)
+
+SVD model with MF,  simple multiplication of latent features (inner product), may not be sufficient to capture the complex structure of user interaction data.
+
+This calls for designing a better, dedicated interaction function for modeling the latent feature interaction between users and items. 
+
+Neural Collaborative Filtering (NCF) aims to solve this by: 
+
+- Modeling user-item feature interaction through neural network architecture. It utilizes a Multi-Layer Perceptron(MLP) to learn user-item interactions. This is an upgrade over MF as MLP can learn any continuous function and has high level of nonlinearities(due to multiple layers) making it well endowed to learn user-item interaction function.
+
+- Generalizing and expressing MF as a special case of NCF. As MF is highly successful in the recommendation domain, doing this will give more credence to NCF.
+
+![1 Tqk7Q2q7wsr6MLF8Xl-emg](https://user-images.githubusercontent.com/88277713/193584199-0dda9a53-8ab3-4ca6-88b8-f0d5eb00bc55.png)
+
+1- Input Layer binarise a sparse vector for a user and item identification where:
+- Item (i): 1 means the user u has interacted with Item(i)
+- User (u): To identify the user
+
+2- Embedding layer is a fully connected layer that projects the sparse representation to a dense vector. The obtained user/item embeddings are the latent user/item vectors.
+
+3- Neural CF layers use Multi-layered neural architecture to map the latent vectors to prediction scores.
+
+4- The final output layer returns the predicted score by minimizing the pointwise loss/pairwise loss.
+
+
+
+
 ## Collaborative Filtering Movie Recommender System with SVD +100 K MovieLens Dataset
 [Access to Project](https://github.com/Dodger22/Recommendation-Systems/blob/main/Collaborative_Filtering_Movie_Recommender_System_with_SVD.ipynb)
 
