@@ -8,7 +8,7 @@ Recommender systems are used in a variety of areas, with commonly recognised exa
 
 1- [Collaborative Filtering Movie Recommender System with SVD +100 K MovieLens Dataset](https://github.com/mirzaozeer/Recommendation-Systems-Collaborative-Filtering#collaborative-filtering-movie-recommender-system-with-svd-100-k-movielens-dataset)
 
-2- [Collaborative Filtering NeuMF model with 50K Amazon Fashion Dataset](https://github.com/mirzaozeer/Recommendation-Systems-Collaborative-Filtering/blob/main/Collaborative_Filtering_NeuMF_Model_Amazon_Fashion_Dataset.ipynb)
+2- [Neural Collaborative Filtering NeuMF model with Amazon Fashion Dataset](https://github.com/mirzaozeer/Recommendation-Systems-Collaborative-Filtering/blob/main/Collaborative_Filtering_NeuMF_Model_Amazon_Fashion_Dataset.ipynb)
 
 ## Collaborative Filtering
 ![Recommender-System-Collaborative-Filtering1-i2tutorials](https://user-images.githubusercontent.com/88277713/187086651-12d4e99c-9825-4599-88d7-b55aaa255bbf.jpg)
