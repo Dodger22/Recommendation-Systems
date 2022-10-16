@@ -58,7 +58,7 @@ Neural Collaborative Filtering (NCF) aims to solve this by:
 4- The final output layer returns the predicted score by minimizing the pointwise loss/pairwise loss.
 
 
-## 2-  Content Based 
+## Content Based 
 
 ![1 GKeESn8RruAbAUEm4k3_EQ](https://user-images.githubusercontent.com/88277713/196035689-b36fc741-2252-49d6-bc73-85ba1c03bc9a.png)
 
