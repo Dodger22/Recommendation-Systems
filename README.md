@@ -10,6 +10,8 @@ Recommender systems are used in a variety of areas, with commonly recognised exa
 
 2- [Neural Collaborative Filtering NeuMF model with Amazon Fashion Dataset](https://github.com/mirzaozeer/Recommendation-Systems-Collaborative-Filtering/blob/main/Collaborative_Filtering_NeuMF_Model_Amazon_Fashion_Dataset.ipynb)
 
+3- [CONTENT BASED RECCOMENDATION SYSTEM (TF-IDF)](https://github.com/mirzaozeer/Recommendation-Systems-Models/blob/main/Content_Based_TF-IDF_Movie-Reccomendation.ipynb)
+
 ## Collaborative Filtering
 ![Recommender-System-Collaborative-Filtering1-i2tutorials](https://user-images.githubusercontent.com/88277713/187086651-12d4e99c-9825-4599-88d7-b55aaa255bbf.jpg)
 
@@ -56,16 +58,27 @@ Neural Collaborative Filtering (NCF) aims to solve this by:
 4- The final output layer returns the predicted score by minimizing the pointwise loss/pairwise loss.
 
 
+## 2-  Content Based 
 
+![1 GKeESn8RruAbAUEm4k3_EQ](https://user-images.githubusercontent.com/88277713/196035689-b36fc741-2252-49d6-bc73-85ba1c03bc9a.png)
 
-## Collaborative Filtering Movie Recommender System with SVD +100 K MovieLens Dataset
-[Access to Project](https://github.com/Dodger22/Recommendation-Systems/blob/main/Collaborative_Filtering_Movie_Recommender_System_with_SVD.ipynb)
+This type of filter does not involve other users if not ourselves. Based on what we like, the algorithm will simply pick items with similar content to recommend us. In this case there will be less diversity in the recommendations, but this will work either the user rates things or not
 
-This is an implementation of singular value decomposition (SVD) based on collaborative filtering in the task of movie recommendation. This task is implemented in Python. For simplicity, the MovieLens 100k  Dataset has been used. This dataset has been chosen because it does not require any preprocessing as the main focus of this project  is on SVD and recommender systems.
+This model is easily scalable due to low amounts of data. Moreover, since, unlike other models, this does not need to compare with other users’ data, it can offer niche results specific to the current user.
 
-![1](https://user-images.githubusercontent.com/88277713/187087517-452154c3-a6e3-4955-a8b8-418835bba899.PNG)
+## Techniques
+![1 V9ac4hLVyms79jl65Ym_Bw](https://user-images.githubusercontent.com/88277713/196035970-bfb45404-d62f-41eb-9b45-e12d7df82e00.png)
 
-![2](https://user-images.githubusercontent.com/88277713/187087741-6545f4b9-a001-4413-a17d-83c3f0b19126.PNG)
+### 1- TF-IDF
 
+TF-IDF (term frequency-inverse document frequency) is a statistical measure that evaluates how relevant a word is to a document in a collection of documents.
+
+This is done by multiplying two metrics: how many times a word appears in a document, and the inverse document frequency of the word across a set of documents.
+
+It has many uses, most importantly in automated text analysis, and is very useful for scoring words in machine learning algorithms for Natural Language Processing (NLP).
+
+The term frequency of a word in a document. There are several ways of calculating this frequency, with the simplest being a raw count of instances a word appears in a document. Then, there are ways to adjust the frequency, by length of a document, or by the raw frequency of the most frequent word in a document.
+The inverse document frequency of the word across a set of documents. This means, how common or rare a word is in the entire document set. The closer it is to 0, the more common a word is. This metric can be calculated by taking the total number of documents, dividing it by the number of documents that contain a word, and calculating the logarithm.
+So, if the word is very common and appears in many documents, this number will approach 0. Otherwise, it will approach 1.
 
 
