@@ -74,4 +74,16 @@ The term frequency of a word in a document. There are several ways of calculatin
 The inverse document frequency of the word across a set of documents. This means, how common or rare a word is in the entire document set. The closer it is to 0, the more common a word is. This metric can be calculated by taking the total number of documents, dividing it by the number of documents that contain a word, and calculating the logarithm.
 So, if the word is very common and appears in many documents, this number will approach 0. Otherwise, it will approach 1.
 
+## Hybrid Models
+
+A hybrid recommendation system is a special type of recommendation system which can be considered as the combination of the content and collaborative filtering method. Recommendation systems are widely used in a variety of applications for recommending products or items to the user
+
+
+Hybrid recommender systems combine two or more recommendation methods to gain better performance. Most commonly, collaborative filtering is combined with some other technique in an attempt to avoid the ramp-up problem.
+
+### Example of Hybrıd Model
+
+![A-hybrid-paper-recommendation-system](https://user-images.githubusercontent.com/88277713/208097953-07f6afb3-ef75-4a31-be19-d13c894143d0.png)
+
+
 
